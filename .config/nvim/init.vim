@@ -6,7 +6,7 @@ filetype off
 filetype plugin indent on
 filetype plugin on
 
-" ident
+" ident, tab and 80 column
 set tabstop=2		"Tab is 4 spaces in length."
 set shiftwidth=2	"Indentation is 4 spaces in length."
 set expandtab		"Inserts space chars instead of tab."
@@ -16,6 +16,7 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 set backspace=indent,eol,start
+match ErrorMsg '\%>80v.\+'
 
 " syntax
 syntax on
