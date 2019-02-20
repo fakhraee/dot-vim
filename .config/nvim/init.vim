@@ -51,3 +51,10 @@ let g:netrw_browse_split=1
 
 " Remove all trailing whitespace by pressing F5
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+
+" fold functions in bash
+" zR: unfold all
+" zM: fold all
+" zo: unfold this
+" zc: fold this
+let g:sh_fold_enabled=1
