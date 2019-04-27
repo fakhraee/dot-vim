@@ -194,7 +194,7 @@
   set inccommand=nosplit
   set shortmess=atIc
   set isfname-==
-  set spell
+  " set spell
   let g:indentLine_color_gui = '#343d46'
   " set scrolloff=999
   " set sidescrolloff=999
