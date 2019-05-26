@@ -143,6 +143,9 @@
 
 
 " system settings  ----------------------------------------------------------{{{
+  " highligh cursor
+  set cursorline
+
   " leader is ,
   let mapleader = ','
 
